@@ -40,40 +40,31 @@
 
 ## 🧠 About Me
 
-<p align="center">
-  <i>"Engineer who builds things that actually work in production."</i>
-</p>
+<div align="center">
+<i>"Engineer who builds things that actually work in production."</i>
+<br><br>
 
-<table align="center" width="100%">
-  <tr>
-    <td width="60%" valign="top">
-      <h3>🚀 The Journey</h3>
-      <p>
-        I am an <strong>AI/ML Engineer</strong> and a B.Tech Computer Science student at <strong>Bennett University</strong>. My passion lies in architecting resilient, production-ready AI systems with a strong focus on <strong>RAG</strong>, <strong>LangGraph</strong>, and <strong>Autonomous Agents</strong>.
-      </p>
-      <p>
-        Currently, I'm building a <strong>Stock Market Intelligence RAG</strong> and an <strong>NCR Urban Platform</strong>. I live by one uncompromising engineering principle:
-      </p>
-      <blockquote>
-        <p><i>"Real data only. No synthetic shortcuts. Ever."</i></p>
-      </blockquote>
-    </td>
-    <td width="40%" valign="top">
-      <h3>📌 Snapshot</h3>
-      <p>
-        🎓 <b>Education:</b> Bennett University<br>
-        📍 <b>Base:</b> Prayagraj, UP, India<br>
-        🎯 <b>Target:</b> AI/ML Placements 2025<br>
-        🌙 <b>Fun Fact:</b> I debug ETL pipelines at 2am and call it fun.
-      </p>
-      <h3>⚙️ Core Arsenal</h3>
-      <p>
-        <kbd>Python</kbd> &nbsp; <kbd>LangGraph</kbd> &nbsp; <kbd>RAG</kbd> <br><br>
-        <kbd>FastAPI</kbd> &nbsp; <kbd>Docker</kbd> &nbsp; <kbd>AWS</kbd>
-      </p>
-    </td>
-  </tr>
-</table>
+```mermaid
+gitGraph
+    commit id: "Init: Shikhar Kesharwani"
+    commit id: "Edu: B.Tech CSE @ Bennett University"
+    branch skills
+    checkout skills
+    commit id: "Core: Python, C++, SQL"
+    commit id: "AI: RAG, LangGraph, AI Agents"
+    commit id: "Backend: FastAPI, Docker, AWS"
+    checkout main
+    merge skills id: "Tech Stack Solidified"
+    branch projects
+    checkout projects
+    commit id: "Build: SagrAI (85%+ Accuracy)"
+    commit id: "Build: NCR Urban Intelligence Platform"
+    commit id: "Build: Stock Market Intelligence RAG"
+    checkout main
+    merge projects id: "Philosophy: Real data only. No synthetic shortcuts. Ever."
+    commit id: "Target: AI/ML Placements 2025 🎯" type: HIGHLIGHT
+```
+</div>
 
 ---
 
