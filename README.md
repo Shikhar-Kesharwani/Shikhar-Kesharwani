@@ -1,26 +1,33 @@
-<!-- Header -->
+<!-- Header — smaller font so full name fits -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=0,2,2,5,30&height=220&section=header&text=Ayush%20Gupta&fontSize=52&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Data%20Engineer%20%7C%20ML%20Developer%20%7C%20Full-Stack%20Builder&descAlignY=58&descSize=17" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20,30,19&height=230&section=header&text=Shikhar%20Kesharwani&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20RAG%20%7C%20LangGraph%20%7C%20ML%20Developer&descAlignY=58&descSize=17" width="100%"/>
 </div>
+
+<!-- Open to Work ribbon -->
+<div align="center">
+  <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20OPEN%20TO%20WORK-Internships%20%26%20FTE%202025-brightgreen?style=for-the-badge&labelColor=0d1117" alt="open to work"/>
+</div>
+
+<br/>
 
 <!-- Typing SVG -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&multiline=false&random=false&width=700&lines=Building+Real+Systems+with+Real+Data+%F0%9F%9B%A0%EF%B8%8F;Delhi+NCR+Urban+Intelligence+Platform+%F0%9F%8F%99%EF%B8%8F;ML+%7C+Data+Engineering+%7C+FastAPI+%7C+RAG+%F0%9F%A4%96;No+Synthetic+Shortcuts.+Ever.+%E2%9C%85;B.Tech+CSE+%40+Bennett+University+%7C+Placements+2026+%F0%9F%8E%AF)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&multiline=false&random=false&width=720&lines=Building+Production+AI+Systems+%F0%9F%A4%96;RAG+%7C+Corrective+RAG+%7C+LangGraph+Expert+%F0%9F%94%97;Real+Data.+Real+Impact.+No+Synthetic+Shortcuts.+%E2%9C%85;NCR+Urban+Intelligence+%7C+Stock+Market+RAG+%F0%9F%9A%80;B.Tech+CS+%7C+Targeting+AI%2FML+Placements+2025+%F0%9F%8E%AF)](https://git.io/typing-svg)
 
 </div>
 
 <!-- Badges row -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AyushGU12&label=Profile+Views&color=0e75b6&style=flat-square" alt="profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Shikhar-Kesharwani&label=Profile+Views&color=7c3aed&style=flat-square" alt="profile views"/>
   &nbsp;
-  <img src="https://img.shields.io/github/followers/AyushGU12?label=Followers&style=flat-square&color=0e75b6" alt="followers"/>
+  <img src="https://img.shields.io/github/followers/Shikhar-Kesharwani?label=Followers&style=flat-square&color=7c3aed" alt="followers"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Focus-Data+Engineering+%7C+ML-brightgreen?style=flat-square" alt="focus"/>
+  <img src="https://img.shields.io/badge/Focus-AI%2FML%20Placements-7c3aed?style=flat-square" alt="focus"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20FTE-blue?style=flat-square" alt="open"/>
+  <img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20FTE-0ea5e9?style=flat-square" alt="open"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/Real%20Data-Only-orange?style=flat-square" alt="real data"/>
+  <img src="https://img.shields.io/badge/Real%20Data-Only-f59e0b?style=flat-square" alt="real data"/>
 </div>
 
 <br/>
@@ -30,42 +37,82 @@
 ## 🧠 About Me
 
 ```python
-class AyushGupta:
+class ShikharKesharwani:
     def __init__(self):
-        self.name        = "Ayush Gupta"
-        self.role        = "Data Engineer | ML Developer | Full-Stack Builder"
+        self.name        = "Shikhar Kesharwani"
+        self.role        = "AI/ML Engineer | B.Tech Computer Science"
         self.university  = "Bennett University, Greater Noida"
-        self.location    = "Greater Noida, UP, India 📍"
-        self.focus       = ["Data Engineering Pipelines", "ML Systems", "Urban Analytics"]
-        self.building    = "Delhi NCR Urban Intelligence Platform — 52 localities, 6 domains"
+        self.location    = "Prayagraj, Uttar Pradesh, India 📍"
+        self.focus       = ["Production RAG Systems", "AI Agents", "LangGraph"]
+        self.building    = "Stock Market Intelligence RAG + NCR Urban Platform"
         self.principle   = "Real data only. No synthetic shortcuts. Ever."
-        self.target      = "SDE / MLE Placements 2026 🎯"
-        self.fun_fact    = "I write ETL pipelines at 2am and call it debugging 🌙"
+        self.target      = "AI/ML Placements 2025 🎯"
+        self.fun_fact    = "I debug ETL pipelines at 2am and call it fun 🌙"
 
     def stack(self):
         return {
-            "languages":    ["Python", "C++", "Java", "SQL"],
-            "data_eng":     ["Pandas", "NumPy", "ohsome API", "OpenStreetMap ETL"],
-            "ml":           ["Scikit-learn", "XGBoost", "CNN", "Random Forest", "ONNX"],
-            "backends":     ["FastAPI", "Streamlit"],
-            "databases":    ["SQLite", "PostgreSQL", "ChromaDB"],
-            "devops":       ["Docker", "Git", "GitHub Actions", "AWS EC2/S3"],
-            "ai":           ["LangChain", "RAG", "Grad-CAM", "Text-to-SQL"],
+            "languages":  ["Python", "C++", "Java", "SQL"],
+            "ai_ml":      ["LangChain", "LangGraph", "RAG", "CRAG", "AI Agents"],
+            "ml_libs":    ["Scikit-learn", "XGBoost", "Pandas", "NumPy"],
+            "frameworks": ["FastAPI", "Streamlit"],
+            "databases":  ["SQLite", "ChromaDB"],
+            "devops":     ["Docker", "Git", "AWS EC2/S3", "Render", "Vercel"],
         }
 
     def contact(self):
         return {
-            "email":  "ayushgu02@gmail.com",
-            "github": "github.com/AyushGU12",
+            "linkedin": "linkedin.com/in/shikhar-kesharwani",
+            "github":   "github.com/Shikhar-Kesharwani",
+            "email":    "your-email@gmail.com",
         }
 
     def __str__(self):
-        return "Engineer who ships systems that work on real data in production."
+        return "Engineer who builds things that actually work in production."
 
-me = AyushGupta()
+me = ShikharKesharwani()
 print(me)
-# Output: Engineer who ships systems that work on real data in production.
+# Output: Engineer who builds things that actually work in production.
 ```
+
+---
+
+## 🎮 Fun Stats
+
+<div align="center">
+
+```
+☕  Cups of coffee consumed          ████████████████████  900+
+🐛  Bugs squashed                    ███████████████░░░░░  1,400+
+🤖  RAG pipelines built              ████████░░░░░░░░░░░░  8+
+🌙  Commits pushed after 2am         ██████████████░░░░░░  250+
+📊  Real data rows processed         ████████████████████  200K+
+🔁  "It works on my machine" moments ███░░░░░░░░░░░░░░░░░  getting better
+```
+
+</div>
+
+---
+
+## 🛠️ Skill Icons
+
+<div align="center">
+
+### Languages
+[![My Skills](https://skillicons.dev/icons?i=python,cpp,java,mysql&theme=dark)](https://skillicons.dev)
+
+### AI / ML / Data
+[![My Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark)](https://skillicons.dev)
+
+### Backend & Frameworks
+[![My Skills](https://skillicons.dev/icons?i=fastapi,streamlit,flask,docker&theme=dark)](https://skillicons.dev)
+
+### Databases & Cloud
+[![My Skills](https://skillicons.dev/icons?i=sqlite,postgresql,aws,gcp&theme=dark)](https://skillicons.dev)
+
+### Tools & DevOps
+[![My Skills](https://skillicons.dev/icons?i=git,github,githubactions,vscode,linux,bash&theme=dark)](https://skillicons.dev)
+
+</div>
 
 ---
 
@@ -74,103 +121,156 @@ print(me)
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🏙️ Delhi NCR Urban Intelligence Platform</h3>
+      <h3>🏙️ NCR Urban Intelligence Platform</h3>
       <p>
-        Development analytics across 52 NCR localities spanning Delhi, Noida, Greater Noida,
-        Gurgaon, Faridabad, Ghaziabad — 6 domains (health, education, transport, environment,
-        commercial, governance). Full ohsome API + RBI DBIE ETL pipeline with 16-year coverage
-        (2011–2026). Zero nulls. Zero synthetic data. Per-10k ratios, catchment analysis at
-        500m/1km/2km radii, year-on-year drift detection.
+        Comparative development analytics across 5 NCR cities — 68+ localities,
+        6 domains. Incremental city-by-city OSM ETL with full score drift detection,
+        staging DB swap, and GeoPandas spatial analysis. Real data only — ICRISAT,
+        RBI, OpenStreetMap. No synthetic fallbacks.
       </p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
         <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
         <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"/>
+        <img src="https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white"/>
       </p>
       <details>
         <summary>💡 What I learned building this</summary>
         <ul>
-          <li>ohsome API polygon querying at scale with rate-limit backoff strategies</li>
           <li>Incremental ETL with staging DB swap to avoid corrupt production state</li>
           <li>Catchment-radius spatial joins using GeoPandas for multi-ring analysis</li>
-          <li>RBI DBIE API pagination and fiscal-year alignment with calendar data</li>
+          <li>Score drift detection across 16-year time series per locality</li>
+          <li>RBI DBIE fiscal-year alignment with OpenStreetMap calendar data</li>
         </ul>
       </details>
-      <a href="https://github.com/AyushGU12">
+      <details>
+        <summary>🏗️ Architecture</summary>
+
+```
+OSM ohsome API ──► Polygon ETL ──► Staging DB
+RBI DBIE       ──► Fiscal Align ──►     │
+                                        ▼
+                                  Score Engine
+                                        │
+                           ┌────────────┴────────────┐
+                      Drift Detect            Catchment Join
+                           │                      │
+                           └────────────┬──────────┘
+                                        ▼
+                               Streamlit Dashboard
+```
+
+      </details>
+      <a href="https://github.com/Shikhar-Kesharwani/urban-growth">
         <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
       </a>
     </td>
     <td width="50%" valign="top">
-      <h3>🌾 Crop Recommendation System</h3>
+      <h3>🌾 SagrAI — Agricultural Intelligence</h3>
       <p>
-        Random Forest classifier on 7 soil/climate inputs (N, P, K, pH, humidity, rainfall,
-        temperature) returning top-3 crop recommendations with confidence scores. Geographic
-        exclusion filtering prevents climatically impossible suggestions. Deployed via FastAPI
-        with Streamlit UI. 97%+ accuracy on validation set.
+        Indian crop failure risk prediction using XGBoost on ICRISAT + NASA POWER
+        data. 188K+ rows, 85%+ accuracy. Binary classification on yield drops
+        exceeding 25% below 5-year rolling mean. Full FastAPI deployment with
+        real-time inference endpoints.
       </p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/XGBoost-EA4335?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Accuracy-85%25+-brightgreen?style=flat-square"/>
       </p>
       <details>
         <summary>💡 What I learned building this</summary>
         <ul>
-          <li>Geographic exclusion via lookup table beats model-level constraints for explainability</li>
-          <li>Confidence calibration: raw RF probabilities vs. Platt scaling tradeoffs</li>
-          <li>Top-k output design for agri-advisory UX vs. single prediction systems</li>
+          <li>5-year rolling mean as dynamic threshold beats static cutoffs for yield prediction</li>
+          <li>NASA POWER API solar/rainfall alignment with ICRISAT district boundaries</li>
+          <li>XGBoost early stopping on imbalanced agricultural failure datasets</li>
         </ul>
       </details>
-      <a href="https://github.com/AyushGU12">
+      <details>
+        <summary>🏗️ Architecture</summary>
+
+```
+ICRISAT data ──► Feature Engineering
+NASA POWER   ──► Climate Alignment ──►  XGBoost
+                                            │
+                                   85%+ Accuracy
+                                            │
+                                    FastAPI Endpoint
+                                            │
+                               Real-time Inference API
+```
+
+      </details>
+      <a href="https://github.com/Shikhar-Kesharwani/Sagriai">
         <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌿 Crop Disease Detection Platform</h3>
+      <h3>📈 Stock Market Intelligence RAG</h3>
       <p>
-        CNN-from-scratch architecture (no pretrained weights) for plant disease classification.
-        ONNX export for cross-platform inference. FastAPI backend with Grad-CAM visualization
-        overlay — shows <em>which leaf regions</em> triggered the prediction. Designed for
-        deployment on low-resource edge devices in agricultural settings.
+        Production LLM app with full Langfuse observability. Hybrid retrieval
+        (dense + sparse BM25 + reranker) over NSE price data and financial news.
+        LLM-as-judge evaluation on every query. Cost tracking per request.
+        Dockerised + deployed on Railway with daily data refresh container.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-        <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ChromaDB-7c3aed?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/GradCAM-FF6B35?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
       </p>
       <details>
         <summary>💡 What I learned building this</summary>
         <ul>
-          <li>Building CNN blocks from scratch forces understanding of receptive fields and gradient flow</li>
-          <li>ONNX export graph tracing pitfalls with dynamic input shapes</li>
-          <li>Grad-CAM: hooking into intermediate activations without modifying architecture</li>
+          <li>Hybrid BM25 + dense retrieval: sparse handles tickers, dense handles context</li>
+          <li>LLM-as-judge: scoring retrieval quality without labelled ground truth</li>
+          <li>Langfuse trace IDs linking every user query to its full retrieval chain</li>
+          <li>Daily refresh container pattern: decoupled ingestion from serving</li>
         </ul>
       </details>
-      <a href="https://github.com/AyushGU12">
+      <details>
+        <summary>🏗️ Architecture</summary>
+
+```
+NSE Price Data ──► Daily Refresh Container
+Financial News ──►         │
+                           ▼
+                    ChromaDB (dense)
+                    BM25 Index (sparse)
+                           │
+                    Hybrid Retrieval + Reranker
+                           │
+                      LLM Generation
+                           │
+              ┌────────────┴────────────┐
+         LLM-as-Judge              Langfuse Trace
+         (quality score)           (observability)
+```
+
+      </details>
+      <a href="https://github.com/Shikhar-Kesharwani">
         <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
       </a>
     </td>
     <td width="50%" valign="top">
       <h3>🌐 DNS Resolver — From Scratch</h3>
       <p>
-        Pure Python DNS resolver with zero library dependencies. Walks the full DNS hierarchy:
-        Root → TLD → Authoritative. Implements DNS compression pointer decoding, CNAME chain
-        resolution, in-memory TTL cache, and A/NS/CNAME/AAAA record support. 13 hardcoded
-        root servers. Manual byte-level packet parsing over raw UDP sockets.
+        Pure Python DNS resolver with zero library dependencies. Manually walks
+        DNS hierarchy: Root → TLD → Authoritative. Implements DNS compression
+        pointer decoding, CNAME chain resolution, in-memory TTL cache, and
+        supports A/NS/CNAME/AAAA record types. 13 hardcoded root servers.
       </p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
         <img src="https://img.shields.io/badge/UDP%2FTCP-00599C?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Networking-FF6B35?style=flat-square&logoColor=white"/>
         <img src="https://img.shields.io/badge/No%20Libraries-success?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Networking-FF6B35?style=flat-square"/>
       </p>
       <details>
         <summary>💡 What I learned building this</summary>
@@ -180,45 +280,29 @@ print(me)
           <li>TTL cache invalidation and negative caching (NXDOMAIN) edge cases</li>
         </ul>
       </details>
-      <a href="https://github.com/AyushGU12">
-        <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💬 Text-to-SQL with Hallucination Detection</h3>
-      <p>
-        Natural language → SQL interface with LLM-as-judge verification layer. Detects
-        column hallucinations, schema drift, and invalid JOIN paths before query execution.
-        Supports multi-table schemas with FK relationships. Differentiator: confidence
-        scoring per clause, not just pass/fail query validation.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-      </p>
-      <a href="https://github.com/AyushGU12">
-        <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>❤️ CardioSense / ChestVision AI</h3>
-      <p>
-        Healthcare ML platform for cardiac risk stratification and chest X-ray pathology
-        detection. Gradient-boosted ensemble on clinical tabular features; CNN classifier
-        for X-ray abnormality localisation. Sehat — a unified healthcare portal integrating
-        both inference modules with patient-facing explanation outputs.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/XGBoost-EA4335?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-      </p>
-      <a href="https://github.com/AyushGU12">
+      <details>
+        <summary>🏗️ Architecture</summary>
+
+```
+Query: "api.github.com"
+          │
+     ┌────▼────┐
+     │  Cache  │──► HIT: return immediately
+     └────┬────┘
+          │ MISS
+          ▼
+   Root Servers (13)
+          │
+     TLD Server (.com)
+          │
+   Authoritative NS
+          │
+     A Record ──► IP Address
+     (+ CNAME chain if needed)
+```
+
+      </details>
+      <a href="https://github.com/Shikhar-Kesharwani">
         <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
       </a>
     </td>
@@ -233,37 +317,38 @@ print(me)
 
 ### 🤖 AI / Machine Learning
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6B35?style=for-the-badge&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EA4335?style=for-the-badge&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-### 🗄️ Data Engineering
-![OpenStreetMap](https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=for-the-badge&logo=openstreetmap&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)
-
-### ⚙️ Frameworks & APIs
+### ⚙️ Frameworks & Databases
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-7c3aed?style=for-the-badge&logoColor=white)
 
 ### 💻 Languages
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### 🚀 DevOps & Cloud
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+
+### 🧰 Tools
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)
 
 </div>
 
@@ -272,28 +357,48 @@ print(me)
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AyushGU12&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AyushGU12&theme=tokyonight&hide_border=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Shikhar-Kesharwani&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Shikhar-Kesharwani&theme=tokyonight&hide_border=true" />
 </div>
 
 <div align="center">
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushGU12&layout=donut&theme=tokyonight&hide_border=true&langs_count=8" />
+  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shikhar-Kesharwani&layout=donut&theme=tokyonight&hide_border=true&langs_count=8" />
 </div>
+
+---
+
+## 🌐 GitHub Metrics
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Shikhar-Kesharwani/Shikhar-Kesharwani/main/github-metrics.svg" alt="GitHub Metrics" width="100%"/>
+</div>
+
+> 💡 *Enable: set up [lowlighter/metrics](https://github.com/lowlighter/metrics) GitHub Action to auto-generate this.*
 
 ---
 
 ## 🏆 Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=AyushGU12&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Shikhar-Kesharwani&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" />
 </div>
+
+---
+
+## 🗓️ 3D Contribution Calendar
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Shikhar-Kesharwani/Shikhar-Kesharwani/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
+</div>
+
+> 💡 *Enable: set up [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) GitHub Action.*
 
 ---
 
 ## 📈 Contribution Activity
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=AyushGU12&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true&area_color=bf91f3" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Shikhar-Kesharwani&bg_color=1a1b27&color=a78bfa&line=7c3aed&point=38bdae&area=true&hide_border=true&area_color=7c3aed" />
 </div>
 
 ---
@@ -303,27 +408,27 @@ print(me)
 <table>
   <tr>
     <td>🔨 Building</td>
-    <td>Delhi NCR Urban Intelligence Platform — 52 localities, strict real-data pipeline</td>
+    <td>Stock Market Intelligence RAG with Langfuse full observability</td>
   </tr>
   <tr>
     <td>🔨 Building</td>
-    <td>Text-to-SQL interface with per-clause hallucination detection</td>
+    <td>NCR Urban Intelligence Platform — 68+ localities, real-data only</td>
   </tr>
   <tr>
     <td>📚 Learning</td>
-    <td>Corrective RAG · LangGraph Agents · Spatial SQL · DNS internals</td>
+    <td>Corrective RAG · Adaptive RAG · Hierarchical Agent Teams · LangGraph</td>
   </tr>
   <tr>
     <td>🎯 Target</td>
-    <td>SDE / MLE Placements 2026 — Data Engineering & AI/ML roles</td>
+    <td>AI/ML Placements 2025 — SDE/MLE roles in India's AI ecosystem</td>
   </tr>
   <tr>
     <td>🌍 Domains</td>
-    <td>Urban Analytics · Indian Agriculture · Healthcare AI · NLP</td>
+    <td>Indian Agriculture · Urban Analytics · Financial AI · NLP</td>
   </tr>
   <tr>
     <td>📍 Location</td>
-    <td>Greater Noida, Uttar Pradesh, India</td>
+    <td>Prayagraj, Uttar Pradesh, India</td>
   </tr>
 </table>
 
@@ -333,10 +438,11 @@ print(me)
 
 > Things I'm reading, researching, or experimenting with this month
 
-- **Spatial data engineering** — PostGIS, H3 hexagonal indexing for urban density analysis
-- **RAG architecture patterns** — Corrective RAG, Self-RAG, hybrid BM25+dense retrieval
-- **Systems programming** — how DNS, TCP, and HTTP are actually implemented at the byte level
-- **Interview prep** — OS (virtual memory, scheduling), CN (TCP congestion, routing), DBMS (B-trees, ACID)
+- 📖 **"Designing Data-Intensive Applications"** — Kleppmann (systems design bible)
+- 🤖 **Agentic RAG** — LangGraph multi-agent orchestration, tool-calling patterns
+- 🔍 **Hybrid retrieval** — BM25 + dense + reranker: when each wins
+- 🌐 **Systems internals** — DNS, TCP, HTTP at the byte level (building, not just reading)
+- 🧠 **Placement deep dives** — OS, CN, DBMS, System Design
 
 ---
 
@@ -346,23 +452,10 @@ print(me)
 
 > **"Real data only. No synthetic shortcuts."**
 >
-> Every project uses verified, authentic datasets —
-> OpenStreetMap, RBI DBIE, ICRISAT, NASA POWER, data.gov.in Agmarknet.
+> Every project I build uses verified, authentic datasets —
+> ICRISAT, NASA POWER, RBI, OpenStreetMap, NSE.
 > If the data doesn't exist, I document the gap honestly
 > rather than fabricate numbers to make the dashboard look nice.
-
-</div>
-
----
-
-## 🤝 Let's Build Something
-
-<div align="center">
-
-**Open to internships, FTE roles, hackathon collabs, and open-source contributions**
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AyushGU12)
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushgu02@gmail.com)
 
 </div>
 
@@ -376,16 +469,52 @@ print(me)
 
 ---
 
+## 💬 Dev Quote
+
+<div align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="dev quote" />
+</div>
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+**Open to internships, FTE roles, hackathon collabs, and open-source contributions**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/shikhar-kesharwani)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shikhar-Kesharwani)
+[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
+
+</div>
+
+---
+
 <!-- Snake animation -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/AyushGU12/AyushGU12/blob/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/AyushGU12/AyushGU12/blob/output/github-contribution-grid-snake.svg" />
-    <img alt="snake animation" src="https://github.com/AyushGU12/AyushGU12/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Shikhar-Kesharwani/Shikhar-Kesharwani/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Shikhar-Kesharwani/Shikhar-Kesharwani/blob/output/github-contribution-grid-snake.svg" />
+    <img alt="snake animation" src="https://github.com/Shikhar-Kesharwani/Shikhar-Kesharwani/blob/output/github-contribution-grid-snake-dark.svg" />
   </picture>
 </div>
 
 <!-- Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=100&section=footer" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30,19&height=120&section=footer" width="100%"/>
 </div>
+
+<!--
+=============================================================
+  GITHUB ACTIONS TO SET UP (.github/workflows/)
+=============================================================
+
+1. snake.yml          — contribution snake animation
+2. 3d-contrib.yml     — 3D isometric contribution calendar
+3. metrics.yml        — GitHub metrics infographic
+
+All use GITHUB_TOKEN (auto-provided, no setup needed).
+Run each once manually via Actions tab → Run workflow.
+=============================================================
+-->
