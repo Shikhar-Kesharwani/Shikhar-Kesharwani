@@ -41,29 +41,48 @@
 ## 🧠 About Me
 
 <div align="center">
-<i>"Engineer who builds things that actually work in production."</i>
-<br><br>
-
-```mermaid
-gitGraph
-    commit id: "Init: Shikhar Kesharwani"
-    commit id: "Edu: B.Tech CSE @ Bennett University"
-    branch skills
-    checkout skills
-    commit id: "Core: Python, C++, SQL"
-    commit id: "AI: RAG, LangGraph, AI Agents"
-    commit id: "Backend: FastAPI, Docker, AWS"
-    checkout main
-    merge skills id: "Tech Stack Solidified"
-    branch projects
-    checkout projects
-    commit id: "Build: SagrAI (85%+ Accuracy)"
-    commit id: "Build: NCR Urban Intelligence Platform"
-    commit id: "Build: Stock Market Intelligence RAG"
-    checkout main
-    merge projects id: "Philosophy: Real data only. No synthetic shortcuts. Ever."
-    commit id: "Target: AI/ML Placements 2025 🎯" type: HIGHLIGHT
-```
+  <table width="100%">
+    <tr>
+      <td width="25%" align="center" valign="top">
+        <br>
+        <img src="https://github.com/Shikhar-Kesharwani.png" width="160" alt="Profile Picture"/>
+        <br><br>
+        <img src="https://img.shields.io/badge/STATUS-BUILDING-success?style=for-the-badge" />
+        <br><br>
+        <img src="https://img.shields.io/badge/TARGET-2025_PLACEMENTS-0ea5e9?style=for-the-badge" />
+      </td>
+      <td width="75%" valign="top">
+        <h1>Hi, I'm Shikhar 👋</h1>
+        <p>
+          <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=3000&pause=1000&color=7c3aed&vCenter=true&multiline=false&width=600&lines=AI%2FML+Engineer;Production+RAG+Architect;LangGraph+Specialist;Data+Intelligence+Builder" />
+        </p>
+        
+        <p>
+          I engineer <b>production-ready AI systems</b> that scale. Currently completing my B.Tech in CSE at Bennett University, I specialize in designing autonomous agents and complex retrieval pipelines. 
+        </p>
+        
+        <br>
+        
+        <table width="100%">
+          <tr>
+            <td valign="top" width="50%">
+              <h3>🔥 Active Operations</h3>
+              <ul>
+                <li><b>Stock Market RAG:</b> Full observability via Langfuse.</li>
+                <li><b>NCR Urban Platform:</b> 68+ localities, pure geospatial data.</li>
+              </ul>
+            </td>
+            <td valign="top" width="50%">
+              <h3>🛡️ Core Philosophy</h3>
+              <blockquote>
+                <i>"Real data only.<br>No synthetic shortcuts. Ever."</i>
+              </blockquote>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
