@@ -1,6 +1,6 @@
-<!-- Header — slice type, full name always visible -->
+<!-- Header — waving type, full name always visible -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=6,11,20,30,19&height=200&section=header&text=Shikhar%20Kesharwani&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=45&fontAlign=35&desc=AI%20Engineer%20%7C%20RAG%20%7C%20LangGraph%20%7C%20ML%20Developer&descAlignY=62&descAlign=35&descSize=15" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20,30,19&height=220&section=header&text=Shikhar%20Kesharwani&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=40&desc=AI%20Engineer%20%7C%20RAG%20%7C%20LangGraph%20%7C%20ML%20Developer&descAlignY=58&descSize=16" width="100%"/>
 </div>
 
 <!-- Animated Open to Work + Social row -->
