@@ -40,43 +40,40 @@
 
 ## 🧠 About Me
 
-```python
-class ShikharKesharwani:
-    def __init__(self):
-        self.name        = "Shikhar Kesharwani"
-        self.role        = "AI/ML Engineer | B.Tech Computer Science"
-        self.university  = "Bennett University, Greater Noida"
-        self.location    = "Prayagraj, Uttar Pradesh, India 📍"
-        self.focus       = ["Production RAG Systems", "AI Agents", "LangGraph"]
-        self.building    = "Stock Market Intelligence RAG + NCR Urban Platform"
-        self.principle   = "Real data only. No synthetic shortcuts. Ever."
-        self.target      = "AI/ML Placements 2025 🎯"
-        self.fun_fact    = "I debug ETL pipelines at 2am and call it fun 🌙"
+<p align="center">
+  <i>"Engineer who builds things that actually work in production."</i>
+</p>
 
-    def stack(self):
-        return {
-            "languages":  ["Python", "C++", "Java", "SQL"],
-            "ai_ml":      ["LangChain", "LangGraph", "RAG", "CRAG", "AI Agents"],
-            "ml_libs":    ["Scikit-learn", "XGBoost", "Pandas", "NumPy"],
-            "frameworks": ["FastAPI", "Streamlit"],
-            "databases":  ["SQLite", "ChromaDB"],
-            "devops":     ["Docker", "Git", "AWS EC2/S3", "Render", "Vercel"],
-        }
-
-    def contact(self):
-        return {
-            "linkedin": "linkedin.com/in/shikhar-kesharwani",
-            "github":   "github.com/Shikhar-Kesharwani",
-            "email":    "your-email@gmail.com",
-        }
-
-    def __str__(self):
-        return "Engineer who builds things that actually work in production."
-
-me = ShikharKesharwani()
-print(me)
-# Output: Engineer who builds things that actually work in production.
-```
+<table align="center" width="100%">
+  <tr>
+    <td width="60%" valign="top">
+      <h3>🚀 The Journey</h3>
+      <p>
+        I am an <strong>AI/ML Engineer</strong> and a B.Tech Computer Science student at <strong>Bennett University</strong>. My passion lies in architecting resilient, production-ready AI systems with a strong focus on <strong>RAG</strong>, <strong>LangGraph</strong>, and <strong>Autonomous Agents</strong>.
+      </p>
+      <p>
+        Currently, I'm building a <strong>Stock Market Intelligence RAG</strong> and an <strong>NCR Urban Platform</strong>. I live by one uncompromising engineering principle:
+      </p>
+      <blockquote>
+        <p><i>"Real data only. No synthetic shortcuts. Ever."</i></p>
+      </blockquote>
+    </td>
+    <td width="40%" valign="top">
+      <h3>📌 Snapshot</h3>
+      <p>
+        🎓 <b>Education:</b> Bennett University<br>
+        📍 <b>Base:</b> Prayagraj, UP, India<br>
+        🎯 <b>Target:</b> AI/ML Placements 2025<br>
+        🌙 <b>Fun Fact:</b> I debug ETL pipelines at 2am and call it fun.
+      </p>
+      <h3>⚙️ Core Arsenal</h3>
+      <p>
+        <kbd>Python</kbd> &nbsp; <kbd>LangGraph</kbd> &nbsp; <kbd>RAG</kbd> <br><br>
+        <kbd>FastAPI</kbd> &nbsp; <kbd>Docker</kbd> &nbsp; <kbd>AWS</kbd>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
