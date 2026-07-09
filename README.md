@@ -38,52 +38,31 @@
 
 ---
 
-## 🧠 About Me
-
 <div align="center">
-  <table width="100%">
-    <tr>
-      <td width="25%" align="center" valign="top">
-        <br>
-        <img src="https://github.com/Shikhar-Kesharwani.png" width="160" alt="Profile Picture"/>
-        <br><br>
-        <img src="https://img.shields.io/badge/STATUS-BUILDING-success?style=for-the-badge" />
-        <br><br>
-        <img src="https://img.shields.io/badge/TARGET-2025_PLACEMENTS-0ea5e9?style=for-the-badge" />
-      </td>
-      <td width="75%" valign="top">
-        <h1>Hi, I'm Shikhar 👋</h1>
-        <p>
-          <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=3000&pause=1000&color=7c3aed&vCenter=true&multiline=false&width=600&lines=AI%2FML+Engineer;Production+RAG+Architect;LangGraph+Specialist;Data+Intelligence+Builder" />
-        </p>
-        
-        <p>
-          I engineer <b>production-ready AI systems</b> that scale. Currently completing my B.Tech in CSE at Bennett University, I specialize in designing autonomous agents and complex retrieval pipelines. 
-        </p>
-        
-        <br>
-        
-        <table width="100%">
-          <tr>
-            <td valign="top" width="50%">
-              <h3>🔥 Active Operations</h3>
-              <ul>
-                <li><b>Stock Market RAG:</b> Full observability via Langfuse.</li>
-                <li><b>NCR Urban Platform:</b> 68+ localities, pure geospatial data.</li>
-              </ul>
-            </td>
-            <td valign="top" width="50%">
-              <h3>🛡️ Core Philosophy</h3>
-              <blockquote>
-                <i>"Real data only.<br>No synthetic shortcuts. Ever."</i>
-              </blockquote>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Fire.png" width="55" />
 </div>
+
+<h3 align="center">
+  <i>"I don't just write code. I architect intelligence."</i>
+</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=3000&pause=1000&color=a78bfa&center=true&vCenter=true&multiline=true&width=800&height=120&lines=Forging+Production-Ready+RAG+Systems;Pioneering+Autonomous+Agents+with+LangGraph;Based+in+Prayagraj,+Targeting+2025;Real+data+only.+No+synthetic+shortcuts." alt="Typing Banner" />
+</p>
+
+<p align="center">
+  Hi, I'm Shikhar. I am an AI/ML Engineer currently completing my Computer Science degree at Bennett University, but my real classroom is the terminal. I spend my nights debugging complex ETL pipelines and building AI architectures that can handle the unpredictability of the real world. 
+</p>
+
+<p align="center">
+  Whether it's deploying a Stock Market Intelligence RAG or an NCR Urban Analytics Platform, I believe in one absolute truth: <b>engineering is about solving real problems with real data</b>. 
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="30" />
+  <br>
+  <b>Next Stop: AI/ML Placements 2025</b>
+</p>
 
 ---
 
