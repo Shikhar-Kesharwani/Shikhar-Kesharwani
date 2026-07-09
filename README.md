@@ -1,11 +1,15 @@
-<!-- Header — smaller font so full name fits -->
+<!-- Header — slice type, full name always visible -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=6,11,20,30,19&height=230&section=header&text=Shikhar%20Kesharwani&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20%7C%20RAG%20%7C%20LangGraph%20%7C%20ML%20Developer&descAlignY=58&descSize=17" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=6,11,20,30,19&height=200&section=header&text=Shikhar%20Kesharwani&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=45&fontAlign=35&desc=AI%20Engineer%20%7C%20RAG%20%7C%20LangGraph%20%7C%20ML%20Developer&descAlignY=62&descAlign=35&descSize=15" width="100%"/>
 </div>
 
-<!-- Open to Work ribbon -->
+<!-- Animated Open to Work + Social row -->
 <div align="center">
-  <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20OPEN%20TO%20WORK-Internships%20%26%20FTE%202025-brightgreen?style=for-the-badge&labelColor=0d1117" alt="open to work"/>
+  <img src="https://img.shields.io/badge/%F0%9F%9F%A2%20OPEN%20TO%20WORK-Internships%20%26%20FTE%202025-00c853?style=for-the-badge&labelColor=0d1117" alt="open to work"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/📍%20Prayagraj-Uttar%20Pradesh-7c3aed?style=for-the-badge&labelColor=0d1117" alt="location"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/🎓%20Bennett%20University-B.Tech%20CSE-0ea5e9?style=for-the-badge&labelColor=0d1117" alt="university"/>
 </div>
 
 <br/>
@@ -13,7 +17,7 @@
 <!-- Typing SVG -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&multiline=false&random=false&width=720&lines=Building+Production+AI+Systems+%F0%9F%A4%96;RAG+%7C+Corrective+RAG+%7C+LangGraph+Expert+%F0%9F%94%97;Real+Data.+Real+Impact.+No+Synthetic+Shortcuts.+%E2%9C%85;NCR+Urban+Intelligence+%7C+Stock+Market+RAG+%F0%9F%9A%80;B.Tech+CS+%7C+Targeting+AI%2FML+Placements+2025+%F0%9F%8E%AF)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&multiline=false&random=false&width=750&lines=🤖+Building+Production+AI+Systems;🔗+RAG+%7C+Corrective+RAG+%7C+LangGraph+Expert;✅+Real+Data.+Real+Impact.+No+Synthetic+Shortcuts.;🚀+NCR+Urban+Intelligence+%7C+Stock+Market+RAG;🎯+Targeting+AI%2FML+Placements+2025)](https://git.io/typing-svg)
 
 </div>
 
