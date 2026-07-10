@@ -37,7 +37,7 @@
 ---
 
 <div align="center">
-  <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" width="150" />
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="120" />
 </div>
 
 <h3 align="center">
@@ -479,14 +479,7 @@ Query: "api.github.com"
 
 ---
 
-<!-- Snake animation -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Shikhar-Kesharwani/Shikhar-Kesharwani/blob/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/Shikhar-Kesharwani/Shikhar-Kesharwani/blob/output/github-contribution-grid-snake.svg" />
-    <img alt="snake animation" src="https://github.com/Shikhar-Kesharwani/Shikhar-Kesharwani/blob/output/github-contribution-grid-snake-dark.svg" />
-  </picture>
-</div>
+<!-- GitHub Stats and Snake Animation (To be configured via Actions) -->
 
 <!-- Footer -->
 <div align="center">
