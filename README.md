@@ -37,7 +37,7 @@
 ---
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Fire.png" width="55" />
+  <h1>🔥</h1>
 </div>
 
 <h3 align="center">
@@ -57,8 +57,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" width="30" />
-  <br>
+  <h2>🚀</h2>
   <b>Next Stop: AI/ML Placements 2025</b>
 </p>
 
