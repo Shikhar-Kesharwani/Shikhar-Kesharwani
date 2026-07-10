@@ -25,10 +25,6 @@
 
 <!-- Badges row -->
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Shikhar-Kesharwani&label=Profile+Views&color=7c3aed&style=flat-square" alt="profile views"/>
-  &nbsp;
-  <img src="https://img.shields.io/github/followers/Shikhar-Kesharwani?label=Followers&style=flat-square&color=7c3aed" alt="followers"/>
-  &nbsp;
   <img src="https://img.shields.io/badge/Focus-AI%2FML%20Placements-7c3aed?style=flat-square" alt="focus"/>
   &nbsp;
   <img src="https://img.shields.io/badge/Open%20To-Internships%20%26%20FTE-0ea5e9?style=flat-square" alt="open"/>
