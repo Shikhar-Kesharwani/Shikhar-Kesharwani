@@ -19,7 +19,7 @@
 <!-- Typing SVG -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&multiline=false&random=false&width=750&lines=🤖+Building+Production+AI+Systems;🔗+RAG+%7C+Corrective+RAG+%7C+LangGraph+Expert;✅+Real+Data.+Real+Impact.+No+Synthetic+Shortcuts.;🚀+NCR+Urban+Intelligence+%7C+Stock+Market+RAG;🎯+Targeting+AI%2FML+Placements+2025)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&multiline=false&random=false&width=750&lines=👨‍💻+AI%2FML+Engineer+%26+CSE+Undergrad;🔬+Research+Intern+%40+IIIT+Allahabad;🎓+B.Tech+CSE+%40+Bennett+University;📍+Based+in+Prayagraj,+UP;🚀+Targeting+2025+Placements)](https://git.io/typing-svg)
 
 </div>
 
