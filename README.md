@@ -37,7 +37,7 @@
 ---
 
 <div align="center">
-  <h1>🔥</h1>
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f525/512.gif" width="65" />
 </div>
 
 <h3 align="center">
@@ -57,7 +57,8 @@
 </p>
 
 <p align="center">
-  <h2>🚀</h2>
+  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f680/512.gif" width="40" />
+  <br>
   <b>Next Stop: AI/ML Placements 2025</b>
 </p>
 
