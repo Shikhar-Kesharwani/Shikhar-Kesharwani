@@ -345,41 +345,8 @@ Query: "api.github.com"
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Shikhar-Kesharwani&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Shikhar-Kesharwani&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shikhar-Kesharwani&theme=tokyonight&hide_border=true" />
 </div>
-
-<div align="center">
-  <img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shikhar-Kesharwani&layout=donut&theme=tokyonight&hide_border=true&langs_count=8" />
-</div>
-
----
-
-## 🌐 GitHub Metrics
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Shikhar-Kesharwani/Shikhar-Kesharwani/main/github-metrics.svg" alt="GitHub Metrics" width="100%"/>
-</div>
-
-> 💡 *Enable: set up [lowlighter/metrics](https://github.com/lowlighter/metrics) GitHub Action to auto-generate this.*
-
----
-
-## 🏆 Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Shikhar-Kesharwani&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&column=7" />
-</div>
-
----
-
-## 🗓️ 3D Contribution Calendar
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Shikhar-Kesharwani/Shikhar-Kesharwani/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
-</div>
-
-> 💡 *Enable: set up [yoshi389111/github-profile-3d-contrib](https://github.com/yoshi389111/github-profile-3d-contrib) GitHub Action.*
 
 ---
 
