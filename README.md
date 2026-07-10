@@ -10,6 +10,8 @@
   <img src="https://img.shields.io/badge/📍%20Prayagraj-Uttar%20Pradesh-7c3aed?style=for-the-badge&labelColor=0d1117" alt="location"/>
   &nbsp;
   <img src="https://img.shields.io/badge/🎓%20Bennett%20University-B.Tech%20CSE-0ea5e9?style=for-the-badge&labelColor=0d1117" alt="university"/>
+  &nbsp;
+  <img src="https://img.shields.io/badge/🔬%20Research%20Intern-IIIT%20Allahabad-f59e0b?style=for-the-badge&labelColor=0d1117" alt="internship"/>
 </div>
 
 <br/>
