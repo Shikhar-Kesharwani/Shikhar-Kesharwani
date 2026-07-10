@@ -19,7 +19,7 @@
 <!-- Typing SVG -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&multiline=false&random=false&width=750&lines=⚡+Building+Scalable+AI+Architectures;🧠+Deep+Learning+%26+NLP+Enthusiast;📊+Data+Engineering+%26+ETL+Pipelines;🤖+Crafting+Autonomous+Agents;💡+Always+curious.+Always+building.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&multiline=false&random=false&width=750&lines=🎓+3rd+Year+B.Tech+CS+@+Bennett+University;🔍+Looking+for+AI/ML+Internships+—+2025;🤖+Building+things+with+Python+and+AI;💡+Curious+student+who+actually+ships+projects;🌱+Learning+in+public+—+one+project+at+a+time;🚀+From+classroom+to+production+—+still+going;🇮🇳+Student+from+Prayagraj+building+real+things;⚡+Code.+Break.+Fix.+Repeat.;🎯+Turning+college+years+into+a+portfolio;📦+I+dont+just+learn+it+—+I+build+it)](https://git.io/typing-svg)
 
 </div>
 
