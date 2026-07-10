@@ -51,7 +51,7 @@
 </p>
 
 <p align="center">
-  Hi, I'm Shikhar. I am an AI/ML Engineer currently completing my Computer Science degree at Bennett University, but my real classroom is the terminal. I spend my nights debugging complex ETL pipelines and building AI architectures that can handle the unpredictability of the real world. 
+  Hi, I'm Shikhar. I am an AI/ML Engineer currently pursuing my Computer Science degree at Bennett University and advancing my research through an internship at <b>IIIT Allahabad</b>. While academia provides the foundation, my real classroom is the terminal. I spend my nights debugging complex ETL pipelines and building AI architectures that can handle the unpredictability of the real world. 
 </p>
 
 <p align="center">
