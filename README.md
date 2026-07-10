@@ -350,6 +350,14 @@ Query: "api.github.com"
 
 ---
 
+## 🗓️ 3D Contribution Calendar
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Shikhar-Kesharwani/Shikhar-Kesharwani/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
+</div>
+
+---
+
 ## 📈 Contribution Activity
 
 <div align="center">
