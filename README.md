@@ -37,7 +37,7 @@
 ---
 
 <div align="center">
-  <img src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f525/512.gif" width="65" />
+  <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" width="150" />
 </div>
 
 <h3 align="center">
@@ -92,7 +92,7 @@
 [![My Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark)](https://skillicons.dev)
 
 ### Backend & Frameworks
-[![My Skills](https://skillicons.dev/icons?i=fastapi,streamlit,flask,docker&theme=dark)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=fastapi,flask,docker&theme=dark)](https://skillicons.dev)
 
 ### Databases & Cloud
 [![My Skills](https://skillicons.dev/icons?i=sqlite,postgresql,aws,gcp&theme=dark)](https://skillicons.dev)
