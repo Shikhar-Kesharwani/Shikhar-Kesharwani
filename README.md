@@ -340,6 +340,46 @@ Query: "api.github.com"
 
 </div>
 
+<details>
+<summary><h2>🗄️ Project Archive (17+ Advanced Builds)</h2></summary>
+<br>
+<p><i>A complete log of my local architectures, agentic builds, and data pipelines.</i></p>
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 Agentic AI & RAG</h3>
+      <ul>
+        <li><b>AgentForge</b><br><i>Custom autonomous agent framework</i><br><kbd>LangGraph</kbd> <kbd>Python</kbd></li><br>
+        <li><b>PLACEMENT_PREP_CRAG</b><br><i>Corrective RAG pipeline for interview prep</i><br><kbd>CRAG</kbd> <kbd>VectorDB</kbd></li><br>
+        <li><b>PLAN_AND_EXECUTE_AGENT</b><br><i>Autonomous multi-step execution agent</i><br><kbd>LLMs</kbd> <kbd>Agents</kbd></li><br>
+        <li><b>AGENTIC_AI_CHATBOT</b><br><i>Tool-calling conversational AI</i><br><kbd>OpenAI</kbd></li><br>
+        <li><b>AI_CODE_REVIEWER</b><br><i>Automated LLM code review pipeline</i><br><kbd>FastAPI</kbd></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 Data & Spatial ML</h3>
+      <ul>
+        <li><b>urban-growth</b><br><i>NCR Urban Intelligence Platform</i><br><kbd>OSM</kbd> <kbd>Geospatial</kbd></li><br>
+        <li><b>chest_heart_detection</b> & <b>heart_disease_prediction</b><br><i>Medical imaging & diagnostics ML</i><br><kbd>TensorFlow</kbd> <kbd>Scikit-learn</kbd></li><br>
+        <li><b>Nabha TeleMedicine</b> (v3, v6, v7)<br><i>Iterative telemedicine architecture</i><br><kbd>React</kbd> <kbd>Node.js</kbd></li><br>
+        <li><b>Time_Series_Detection</b> & <b>SPATIAL_ANALYSIS</b><br><i>Temporal & geospatial pipelines</i><br><kbd>Pandas</kbd> <kbd>PostGIS</kbd></li><br>
+        <li><b>TEXT_TO_SQL</b><br><i>NLP to database query engine</i><br><kbd>NLP</kbd> <kbd>SQL</kbd></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🌐 Networking & Core Infrastructure</h3>
+      <ul>
+        <li><b>DEEP_PACKET_INSPECTION</b><br><i>Byte-level packet payload security analysis</i><br><kbd>C++</kbd> <kbd>Networking</kbd></li><br>
+        <li><b>dns_resolver</b><br><i>Custom Domain Name System implementation</i><br><kbd>Python</kbd> <kbd>Sockets</kbd></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</details>
+
 ---
 
 ## 📊 GitHub Stats
