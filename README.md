@@ -45,7 +45,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=3000&pause=1000&color=a78bfa&center=true&vCenter=true&multiline=true&width=800&height=120&lines=Forging+Production-Ready+RAG+Systems;Pioneering+Autonomous+Agents+with+LangGraph;Based+in+Prayagraj,+Targeting+2025;Real+data+only.+No+synthetic+shortcuts." alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=22&duration=3000&pause=1000&color=a78bfa&center=true&vCenter=true&multiline=true&width=800&height=120&lines=Learning+to+build+scalable+RAG+systems;Experimenting+with+AI+Agents+%26+LangGraph;CS+Student+@+Bennett+University;Building+with+real+data+to+learn+faster." alt="Typing Banner" />
 </p>
 
 <p align="center">
