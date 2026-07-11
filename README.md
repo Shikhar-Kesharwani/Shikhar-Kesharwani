@@ -106,32 +106,24 @@
 
 ## 🚀 Featured Projects
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 AgentForge</h3>
-      <p>
-        A production-grade, custom framework for building autonomous agents. 
-        Engineered for complex tool-calling, multi-step cyclic reasoning, and state management.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
-      </p>
-      <details>
-        <summary>💡 What I learned building this</summary>
-        <ul>
-          <li>State-graph management is superior to linear chain execution.</li>
-          <li>Handling tool-calling edge cases requires robust fallback states.</li>
-          <li>Cyclic reasoning loops allow agents to self-correct during execution.</li>
-        </ul>
-      </details>
-      <details>
-        <summary>🏗️ Architecture Diagram</summary>
-        
+### 🤖 1. AgentForge
+> **Production-grade framework for building autonomous agents.** 
+> Engineered for complex tool-calling, multi-step cyclic reasoning, and state management.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+[![View Repo](https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shikhar-Kesharwani/AgentForge)
+
+<details>
+<summary><b>💡 Core Insights & Architecture</b> (Click to Expand)</summary>
+
+* **Insight 1:** State-graph management is far superior to linear chain execution for reliability.
+* **Insight 2:** Handling tool-calling edge cases requires robust fallback states.
+* **Insight 3:** Cyclic reasoning loops allow agents to self-correct during execution.
+
 ```mermaid
-graph TD
+graph LR
     A[User Input] --> B(State Graph Manager)
     B --> C{Reasoning Engine}
     C -->|Need Data| D[Tool Executor]
@@ -139,70 +131,53 @@ graph TD
     C -->|Complete| E[Response Synthesizer]
     E --> F[Output]
 ```
-      </details>
-      <a href="https://github.com/Shikhar-Kesharwani/AgentForge">
-        <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🎯 PLACEMENT_PREP_CRAG</h3>
-      <p>
-        A Corrective Retrieval-Augmented Generation (CRAG) system built to optimize interview prep. 
-        It evaluates its own retrieved context, rewrites queries if irrelevant, and generates highly accurate answers.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-        <img src="https://img.shields.io/badge/ChromaDB-7c3aed?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/CRAG-FF0000?style=flat-square&logoColor=white"/>
-      </p>
-      <details>
-        <summary>💡 What I learned building this</summary>
-        <ul>
-          <li>Standard RAG fails when context is noisy; an LLM evaluator step is mandatory.</li>
-          <li>Query rewriting dramatically improves retrieval precision on the second pass.</li>
-          <li>VectorDB chunking strategies dictate the ultimate quality of generation.</li>
-        </ul>
-      </details>
-      <details>
-        <summary>🏗️ Architecture Diagram</summary>
-        
+</details>
+
+<br>
+
+### 🎯 2. PLACEMENT_PREP_CRAG
+> **Corrective Retrieval-Augmented Generation (CRAG) system.**
+> Evaluates its own retrieved context, rewrites queries if irrelevant, and generates highly accurate answers.
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-7c3aed?style=flat-square&logoColor=white)
+![CRAG](https://img.shields.io/badge/CRAG-FF0000?style=flat-square&logoColor=white)
+[![View Repo](https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shikhar-Kesharwani/PLACEMENT_PREP_CRAG)
+
+<details>
+<summary><b>💡 Core Insights & Architecture</b> (Click to Expand)</summary>
+
+* **Insight 1:** Standard RAG fails when context is noisy; an LLM evaluator step is mandatory.
+* **Insight 2:** Query rewriting dramatically improves retrieval precision on the second pass.
+
 ```mermaid
-graph TD
-    A[Query] --> B[VectorDB Retrieval]
+graph LR
+    A[Query] --> B[VectorDB]
     B --> C{Relevance Evaluator}
     C -->|Irrelevant| D[Query Rewriter]
     D --> B
     C -->|Relevant| E[LLM Generation]
     E --> F[Final Answer]
 ```
-      </details>
-      <a href="https://github.com/Shikhar-Kesharwani/PLACEMENT_PREP_CRAG">
-        <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🧠 PLAN_AND_EXECUTE_AGENT</h3>
-      <p>
-        An advanced autonomous agent using the Plan-and-Execute pattern. It dynamically breaks down highly complex, vague user requests into step-by-step DAGs and executes them autonomously.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/ReAct-009688?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Autonomous-000000?style=flat-square&logoColor=white"/>
-      </p>
-      <details>
-        <summary>💡 What I learned building this</summary>
-        <ul>
-          <li>Decoupling the Planner from the Executor prevents LLM hallucination on complex tasks.</li>
-          <li>Dynamic DAGs (Directed Acyclic Graphs) allow for parallel task execution.</li>
-          <li>Agent memory is critical for passing context between execution steps.</li>
-        </ul>
-      </details>
-      <details>
-        <summary>🏗️ Architecture Diagram</summary>
-        
+</details>
+
+<br>
+
+### 🧠 3. PLAN_AND_EXECUTE_AGENT
+> **Advanced autonomous agent using the Plan-and-Execute pattern.** 
+> Dynamically breaks down highly complex, vague user requests into step-by-step DAGs and executes them autonomously.
+
+![LangGraph](https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white)
+![ReAct](https://img.shields.io/badge/ReAct-009688?style=flat-square&logoColor=white)
+![Autonomous](https://img.shields.io/badge/Autonomous-000000?style=flat-square&logoColor=white)
+[![View Repo](https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shikhar-Kesharwani/PLAN_AND_EXECUTE_AGENT)
+
+<details>
+<summary><b>💡 Core Insights & Architecture</b> (Click to Expand)</summary>
+
+* **Insight 1:** Decoupling the Planner from the Executor prevents hallucination on complex tasks.
+* **Insight 2:** Agent memory is critical for passing context between execution steps.
+
 ```mermaid
 graph LR
     A[User Task] --> B[Planner Agent]
@@ -213,48 +188,35 @@ graph LR
     E --> F[Synthesizer]
     F --> G[Result]
 ```
-      </details>
-      <a href="https://github.com/Shikhar-Kesharwani/PLAN_AND_EXECUTE_AGENT">
-        <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🗣️ TEXT_TO_SQL Engine</h3>
-      <p>
-        A robust Natural Language Processing pipeline that translates complex English questions directly into optimized database queries, handling dynamic schema linking and syntax validation.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/NLP-3776AB?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-      </p>
-      <details>
-        <summary>💡 What I learned building this</summary>
-        <ul>
-          <li>Injecting DDL (Data Definition Language) into the prompt context is vital for accuracy.</li>
-          <li>Self-correction loops allow the LLM to fix its own SQL syntax errors before execution.</li>
-          <li>Few-shot prompting significantly reduces JOIN errors across multiple tables.</li>
-        </ul>
-      </details>
-      <details>
-        <summary>🏗️ Architecture Diagram</summary>
-        
+</details>
+
+<br>
+
+### 🗣️ 4. TEXT_TO_SQL Engine
+> **Natural Language Processing pipeline for DB querying.** 
+> Translates complex English questions directly into optimized database queries, handling dynamic schema linking and syntax validation.
+
+![NLP](https://img.shields.io/badge/NLP-3776AB?style=flat-square&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+[![View Repo](https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shikhar-Kesharwani/TEXT_TO_SQL)
+
+<details>
+<summary><b>💡 Core Insights & Architecture</b> (Click to Expand)</summary>
+
+* **Insight 1:** Injecting DDL into the prompt context is vital for accuracy.
+* **Insight 2:** Self-correction loops allow the LLM to fix its own SQL syntax errors.
+
 ```mermaid
-graph TD
+graph LR
     A[Natural Language] --> B[Schema Linker]
     B --> C[LLM SQL Generator]
     C --> D{Syntax Validator}
     D -->|Error| C
     D -->|Valid| E[DB Execution]
-    E --> F[Final Output]
+    E --> F[Output]
 ```
-      </details>
-      <a href="https://github.com/Shikhar-Kesharwani/TEXT_TO_SQL">
-        <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
-      </a>
-    </td>
-  </tr>
-</table>
+</details>
 
 ---
 
@@ -300,43 +262,33 @@ graph TD
 </div>
 
 <details>
-<summary><h2>🗄️ Project Archive (17+ Advanced Builds)</h2></summary>
+<summary><h2>🗄️ Complete Project Archive (All 17 Projects)</h2></summary>
 <br>
 <p><i>A complete log of my local architectures, agentic builds, and data pipelines.</i></p>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 Agentic AI & RAG</h3>
-      <ul>
-        <li><b>AgentForge</b><br><i>Custom autonomous agent framework</i><br><kbd>LangGraph</kbd> <kbd>Python</kbd></li><br>
-        <li><b>PLACEMENT_PREP_CRAG</b><br><i>Corrective RAG pipeline for interview prep</i><br><kbd>CRAG</kbd> <kbd>VectorDB</kbd></li><br>
-        <li><b>PLAN_AND_EXECUTE_AGENT</b><br><i>Autonomous multi-step execution agent</i><br><kbd>LLMs</kbd> <kbd>Agents</kbd></li><br>
-        <li><b>AGENTIC_AI_CHATBOT</b><br><i>Tool-calling conversational AI</i><br><kbd>OpenAI</kbd></li><br>
-        <li><b>AI_CODE_REVIEWER</b><br><i>Automated LLM code review pipeline</i><br><kbd>FastAPI</kbd></li><br>
-        <li><b>LLM_APP</b> & <b>OWN_AI_BUILD</b><br><i>Core custom LLM architectures</i><br><kbd>LLMs</kbd> <kbd>GenAI</kbd></li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📊 Data & Spatial ML</h3>
-      <ul>
-        <li><b>chest_heart_detection</b> & <b>heart_disease_prediction</b><br><i>Medical imaging & diagnostics ML</i><br><kbd>TensorFlow</kbd> <kbd>Scikit-learn</kbd></li><br>
-        <li><b>Nabha TeleMedicine</b> (v3, v6, v7)<br><i>Iterative telemedicine architecture</i><br><kbd>React</kbd> <kbd>Node.js</kbd></li><br>
-        <li><b>Time_Series_Detection</b> & <b>SPATIAL_ANALYSIS</b><br><i>Temporal & geospatial pipelines</i><br><kbd>Pandas</kbd> <kbd>PostGIS</kbd></li><br>
-        <li><b>TEXT_TO_SQL</b><br><i>NLP to database query engine</i><br><kbd>NLP</kbd> <kbd>SQL</kbd></li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>🌐 Networking & Core Infrastructure</h3>
-      <ul>
-        <li><b>DEEP_PACKET_INSPECTION</b><br><i>Byte-level packet payload security analysis</i><br><kbd>C++</kbd> <kbd>Networking</kbd></li><br>
-        <li><b>dns_resolver</b><br><i>Custom Domain Name System implementation</i><br><kbd>Python</kbd> <kbd>Sockets</kbd></li>
-      </ul>
-    </td>
-  </tr>
-</table>
+### 🤖 Agentic AI & RAG
+1. **AgentForge** — *Custom autonomous agent framework (LangGraph, Python)*
+2. **PLACEMENT_PREP_CRAG** — *Corrective RAG pipeline for interview prep (CRAG, VectorDB)*
+3. **PLAN_AND_EXECUTE_AGENT** — *Autonomous multi-step execution agent (LLMs, Agents)*
+4. **AGENTIC_AI_CHATBOT** — *Tool-calling conversational AI (OpenAI API)*
+5. **AI_CODE_REVIEWER** — *Automated LLM code review pipeline (FastAPI)*
+6. **LLM_APP** — *Core custom LLM application architecture*
+7. **OWN_AI_BUILD** — *End-to-end custom AI build*
+
+### 📊 Data & Spatial ML
+8. **chest_heart_detection** — *Medical imaging ML model (TensorFlow)*
+9. **heart_disease_prediction** — *Diagnostics ML pipeline (Scikit-learn)*
+10. **Nabha TeleMedicine v3** — *Telemedicine backend infrastructure*
+11. **Nabha TeleMedicine v6** — *Telemedicine API integrations*
+12. **Nabha TeleMedicine v7** — *Iterative telemedicine architecture (React, Node.js)*
+13. **Time_Series_Detection** — *Temporal data prediction pipelines (Pandas)*
+14. **SPATIAL_ANALYSIS** — *Geospatial pipelines (PostGIS)*
+15. **TEXT_TO_SQL** — *NLP to database query engine (NLP, SQL)*
+
+### 🌐 Networking & Core Infrastructure
+16. **DEEP_PACKET_INSPECTION** — *Byte-level packet payload security analysis (C++, Networking)*
+17. **dns_resolver** — *Custom Domain Name System implementation (Python, Sockets)*
+
 </details>
 
 ---
