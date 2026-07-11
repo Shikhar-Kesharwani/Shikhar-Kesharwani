@@ -109,188 +109,147 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🏙️ NCR Urban Intelligence Platform</h3>
+      <h3>🤖 AgentForge</h3>
       <p>
-        Comparative development analytics across 5 NCR cities — 68+ localities,
-        6 domains. Incremental city-by-city OSM ETL with full score drift detection,
-        staging DB swap, and GeoPandas spatial analysis. Real data only — ICRISAT,
-        RBI, OpenStreetMap. No synthetic fallbacks.
+        A production-grade, custom framework for building autonomous agents. 
+        Engineered for complex tool-calling, multi-step cyclic reasoning, and state management.
       </p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"/>
-        <img src="https://img.shields.io/badge/OpenStreetMap-7EBC6F?style=flat-square&logo=openstreetmap&logoColor=white"/>
+        <img src="https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
       </p>
       <details>
         <summary>💡 What I learned building this</summary>
         <ul>
-          <li>Incremental ETL with staging DB swap to avoid corrupt production state</li>
-          <li>Catchment-radius spatial joins using GeoPandas for multi-ring analysis</li>
-          <li>Score drift detection across 16-year time series per locality</li>
-          <li>RBI DBIE fiscal-year alignment with OpenStreetMap calendar data</li>
+          <li>State-graph management is superior to linear chain execution.</li>
+          <li>Handling tool-calling edge cases requires robust fallback states.</li>
+          <li>Cyclic reasoning loops allow agents to self-correct during execution.</li>
         </ul>
       </details>
       <details>
-        <summary>🏗️ Architecture</summary>
-
+        <summary>🏗️ Architecture Diagram</summary>
+        
+```mermaid
+graph TD
+    A[User Input] --> B(State Graph Manager)
+    B --> C{Reasoning Engine}
+    C -->|Need Data| D[Tool Executor]
+    D --> C
+    C -->|Complete| E[Response Synthesizer]
+    E --> F[Output]
 ```
-OSM ohsome API ──► Polygon ETL ──► Staging DB
-RBI DBIE       ──► Fiscal Align ──►     │
-                                        ▼
-                                  Score Engine
-                                        │
-                           ┌────────────┴────────────┐
-                      Drift Detect            Catchment Join
-                           │                      │
-                           └────────────┬──────────┘
-                                        ▼
-                               Streamlit Dashboard
-```
-
       </details>
-      <a href="https://github.com/Shikhar-Kesharwani/urban-growth">
+      <a href="https://github.com/Shikhar-Kesharwani/AgentForge">
         <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
       </a>
     </td>
     <td width="50%" valign="top">
-      <h3>🌾 SagrAI — Agricultural Intelligence</h3>
+      <h3>🎯 PLACEMENT_PREP_CRAG</h3>
       <p>
-        Indian crop failure risk prediction using XGBoost on ICRISAT + NASA POWER
-        data. 188K+ rows, 85%+ accuracy. Binary classification on yield drops
-        exceeding 25% below 5-year rolling mean. Full FastAPI deployment with
-        real-time inference endpoints.
+        A Corrective Retrieval-Augmented Generation (CRAG) system built to optimize interview prep. 
+        It evaluates its own retrieved context, rewrites queries if irrelevant, and generates highly accurate answers.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/XGBoost-EA4335?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Accuracy-85%25+-brightgreen?style=flat-square"/>
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ChromaDB-7c3aed?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/CRAG-FF0000?style=flat-square&logoColor=white"/>
       </p>
       <details>
         <summary>💡 What I learned building this</summary>
         <ul>
-          <li>5-year rolling mean as dynamic threshold beats static cutoffs for yield prediction</li>
-          <li>NASA POWER API solar/rainfall alignment with ICRISAT district boundaries</li>
-          <li>XGBoost early stopping on imbalanced agricultural failure datasets</li>
+          <li>Standard RAG fails when context is noisy; an LLM evaluator step is mandatory.</li>
+          <li>Query rewriting dramatically improves retrieval precision on the second pass.</li>
+          <li>VectorDB chunking strategies dictate the ultimate quality of generation.</li>
         </ul>
       </details>
       <details>
-        <summary>🏗️ Architecture</summary>
-
+        <summary>🏗️ Architecture Diagram</summary>
+        
+```mermaid
+graph TD
+    A[Query] --> B[VectorDB Retrieval]
+    B --> C{Relevance Evaluator}
+    C -->|Irrelevant| D[Query Rewriter]
+    D --> B
+    C -->|Relevant| E[LLM Generation]
+    E --> F[Final Answer]
 ```
-ICRISAT data ──► Feature Engineering
-NASA POWER   ──► Climate Alignment ──►  XGBoost
-                                            │
-                                   85%+ Accuracy
-                                            │
-                                    FastAPI Endpoint
-                                            │
-                               Real-time Inference API
-```
-
       </details>
-      <a href="https://github.com/Shikhar-Kesharwani/Sagriai">
+      <a href="https://github.com/Shikhar-Kesharwani/PLACEMENT_PREP_CRAG">
         <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>📈 Stock Market Intelligence RAG</h3>
+      <h3>🧠 PLAN_AND_EXECUTE_AGENT</h3>
       <p>
-        Production LLM app with full Langfuse observability. Hybrid retrieval
-        (dense + sparse BM25 + reranker) over NSE price data and financial news.
-        LLM-as-judge evaluation on every query. Cost tracking per request.
-        Dockerised + deployed on Railway with daily data refresh container.
+        An advanced autonomous agent using the Plan-and-Execute pattern. It dynamically breaks down highly complex, vague user requests into step-by-step DAGs and executes them autonomously.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
         <img src="https://img.shields.io/badge/LangGraph-FF6B35?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/ChromaDB-7c3aed?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
+        <img src="https://img.shields.io/badge/ReAct-009688?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Autonomous-000000?style=flat-square&logoColor=white"/>
       </p>
       <details>
         <summary>💡 What I learned building this</summary>
         <ul>
-          <li>Hybrid BM25 + dense retrieval: sparse handles tickers, dense handles context</li>
-          <li>LLM-as-judge: scoring retrieval quality without labelled ground truth</li>
-          <li>Langfuse trace IDs linking every user query to its full retrieval chain</li>
-          <li>Daily refresh container pattern: decoupled ingestion from serving</li>
+          <li>Decoupling the Planner from the Executor prevents LLM hallucination on complex tasks.</li>
+          <li>Dynamic DAGs (Directed Acyclic Graphs) allow for parallel task execution.</li>
+          <li>Agent memory is critical for passing context between execution steps.</li>
         </ul>
       </details>
       <details>
-        <summary>🏗️ Architecture</summary>
-
+        <summary>🏗️ Architecture Diagram</summary>
+        
+```mermaid
+graph LR
+    A[User Task] --> B[Planner Agent]
+    B --> C(Task 1)
+    B --> D(Task 2)
+    C --> E[Executor Agent]
+    D --> E
+    E --> F[Synthesizer]
+    F --> G[Result]
 ```
-NSE Price Data ──► Daily Refresh Container
-Financial News ──►         │
-                           ▼
-                    ChromaDB (dense)
-                    BM25 Index (sparse)
-                           │
-                    Hybrid Retrieval + Reranker
-                           │
-                      LLM Generation
-                           │
-              ┌────────────┴────────────┐
-         LLM-as-Judge              Langfuse Trace
-         (quality score)           (observability)
-```
-
       </details>
-      <a href="https://github.com/Shikhar-Kesharwani">
+      <a href="https://github.com/Shikhar-Kesharwani/PLAN_AND_EXECUTE_AGENT">
         <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
       </a>
     </td>
     <td width="50%" valign="top">
-      <h3>🌐 DNS Resolver — From Scratch</h3>
+      <h3>🗣️ TEXT_TO_SQL Engine</h3>
       <p>
-        Pure Python DNS resolver with zero library dependencies. Manually walks
-        DNS hierarchy: Root → TLD → Authoritative. Implements DNS compression
-        pointer decoding, CNAME chain resolution, in-memory TTL cache, and
-        supports A/NS/CNAME/AAAA record types. 13 hardcoded root servers.
+        A robust Natural Language Processing pipeline that translates complex English questions directly into optimized database queries, handling dynamic schema linking and syntax validation.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/UDP%2FTCP-00599C?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Networking-FF6B35?style=flat-square&logoColor=white"/>
-        <img src="https://img.shields.io/badge/No%20Libraries-success?style=flat-square"/>
+        <img src="https://img.shields.io/badge/NLP-3776AB?style=flat-square&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
       </p>
       <details>
         <summary>💡 What I learned building this</summary>
         <ul>
-          <li>DNS wire format: label encoding, compression pointer offset arithmetic</li>
-          <li>Iterative vs. recursive resolution — why resolvers use iterative in practice</li>
-          <li>TTL cache invalidation and negative caching (NXDOMAIN) edge cases</li>
+          <li>Injecting DDL (Data Definition Language) into the prompt context is vital for accuracy.</li>
+          <li>Self-correction loops allow the LLM to fix its own SQL syntax errors before execution.</li>
+          <li>Few-shot prompting significantly reduces JOIN errors across multiple tables.</li>
         </ul>
       </details>
       <details>
-        <summary>🏗️ Architecture</summary>
-
+        <summary>🏗️ Architecture Diagram</summary>
+        
+```mermaid
+graph TD
+    A[Natural Language] --> B[Schema Linker]
+    B --> C[LLM SQL Generator]
+    C --> D{Syntax Validator}
+    D -->|Error| C
+    D -->|Valid| E[DB Execution]
+    E --> F[Final Output]
 ```
-Query: "api.github.com"
-          │
-     ┌────▼────┐
-     │  Cache  │──► HIT: return immediately
-     └────┬────┘
-          │ MISS
-          ▼
-   Root Servers (13)
-          │
-     TLD Server (.com)
-          │
-   Authoritative NS
-          │
-     A Record ──► IP Address
-     (+ CNAME chain if needed)
-```
-
       </details>
-      <a href="https://github.com/Shikhar-Kesharwani">
+      <a href="https://github.com/Shikhar-Kesharwani/TEXT_TO_SQL">
         <img src="https://img.shields.io/badge/View%20Repo-%23181717?style=flat-square&logo=github&logoColor=white"/>
       </a>
     </td>
