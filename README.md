@@ -354,7 +354,8 @@ Query: "api.github.com"
         <li><b>PLACEMENT_PREP_CRAG</b><br><i>Corrective RAG pipeline for interview prep</i><br><kbd>CRAG</kbd> <kbd>VectorDB</kbd></li><br>
         <li><b>PLAN_AND_EXECUTE_AGENT</b><br><i>Autonomous multi-step execution agent</i><br><kbd>LLMs</kbd> <kbd>Agents</kbd></li><br>
         <li><b>AGENTIC_AI_CHATBOT</b><br><i>Tool-calling conversational AI</i><br><kbd>OpenAI</kbd></li><br>
-        <li><b>AI_CODE_REVIEWER</b><br><i>Automated LLM code review pipeline</i><br><kbd>FastAPI</kbd></li>
+        <li><b>AI_CODE_REVIEWER</b><br><i>Automated LLM code review pipeline</i><br><kbd>FastAPI</kbd></li><br>
+        <li><b>LLM_APP</b> & <b>OWN_AI_BUILD</b><br><i>Core custom LLM architectures</i><br><kbd>LLMs</kbd> <kbd>GenAI</kbd></li>
       </ul>
     </td>
     <td width="50%" valign="top">
