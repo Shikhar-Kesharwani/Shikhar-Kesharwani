@@ -360,7 +360,6 @@ Query: "api.github.com"
     <td width="50%" valign="top">
       <h3>📊 Data & Spatial ML</h3>
       <ul>
-        <li><b>urban-growth</b><br><i>NCR Urban Intelligence Platform</i><br><kbd>OSM</kbd> <kbd>Geospatial</kbd></li><br>
         <li><b>chest_heart_detection</b> & <b>heart_disease_prediction</b><br><i>Medical imaging & diagnostics ML</i><br><kbd>TensorFlow</kbd> <kbd>Scikit-learn</kbd></li><br>
         <li><b>Nabha TeleMedicine</b> (v3, v6, v7)<br><i>Iterative telemedicine architecture</i><br><kbd>React</kbd> <kbd>Node.js</kbd></li><br>
         <li><b>Time_Series_Detection</b> & <b>SPATIAL_ANALYSIS</b><br><i>Temporal & geospatial pipelines</i><br><kbd>Pandas</kbd> <kbd>PostGIS</kbd></li><br>
