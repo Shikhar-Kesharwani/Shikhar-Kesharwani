@@ -1,6 +1,9 @@
 <div align="center">
   <a href="https://github.com/Shikhar-Kesharwani">
-    <img alt="Shikhar-Kesharwani Profile" src="dark_mode.svg?v=unstretched" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg?v=fully_animated" />
+      <img alt="Shikhar-Kesharwani Profile" src="light_mode.svg?v=fully_animated" />
+    </picture>
   </a>
 </div>
 
