@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/Shikhar-Kesharwani">
-    <img alt="Shikhar-Kesharwani Profile" src="alternating_theme.svg?v=2" />
+    <img alt="Shikhar-Kesharwani Profile" src="alternating_theme.svg?v=3" />
   </a>
 </div>
 
