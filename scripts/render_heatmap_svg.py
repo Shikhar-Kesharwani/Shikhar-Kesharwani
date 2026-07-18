@@ -17,7 +17,7 @@ def main():
     box_gap = 4
     
     width = 860
-    height = 200
+    height = 150
     
     parts = []
     parts.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" width="{width}" height="{height}">')
@@ -83,15 +83,7 @@ def main():
         
     parts.append('</g>')
     
-    # Add stats footer
-    footer_y = offset_y + 7 * (box_size + box_gap) + 30
-    parts.append(f'<text x="{width/2}" y="{footer_y}" class="text" text-anchor="middle">')
-    parts.append(f'{data["total_contributions"]} contributions in the last year &#8226; ')
-    parts.append(f'Current streak: <tspan class="stat-val">{data["current_streak"]}</tspan> days &#8226; ')
-    parts.append(f'Longest: <tspan class="stat-val">{data["longest_streak"]}</tspan> days &#8226; ')
-    parts.append(f'Best day: <tspan class="stat-val">{data["best_day"]}</tspan> contributions')
-    parts.append('</text>')
-    
+    # Footer removed
     parts.append('</svg>')
     
     with open('contrib-heatmap.svg', 'w') as f:
