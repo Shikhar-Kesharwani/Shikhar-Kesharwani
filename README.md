@@ -6,7 +6,7 @@
 
   <h3><code>shikhar@github ~ $ whoami</code></h3>
   <a href="https://github.com/Shikhar-Kesharwani">
-    <img alt="Shikhar-Kesharwani Profile" src="alternating_theme.svg?v=4" />
+    <img alt="Shikhar-Kesharwani Profile" src="alternating_theme.svg?v=5" />
   </a>
 </div>
 
