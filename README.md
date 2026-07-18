@@ -4,7 +4,7 @@
   <br><br>
 
   <a href="https://github.com/Shikhar-Kesharwani">
-    <img alt="Shikhar-Kesharwani Profile" src="alternating_theme.svg?v=6" />
+    <img alt="Shikhar-Kesharwani Profile" src="alternating_theme.svg?v=7" />
   </a>
 </div>
 
