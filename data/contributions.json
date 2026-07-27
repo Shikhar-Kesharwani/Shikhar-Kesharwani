@@ -1,6 +1,6 @@
 {
   "username": "Shikhar-Kesharwani",
-  "total_contributions": 1169,
+  "total_contributions": 1156,
   "current_streak": 0,
   "longest_streak": 0,
   "best_day": 0,
@@ -202,7 +202,7 @@
     },
     {
       "date": "2026-04-26",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "date": "2026-05-31",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -267,7 +267,7 @@
     },
     {
       "date": "2026-07-26",
-      "level": 0,
+      "level": 1,
       "count": 0
     },
     {
@@ -287,7 +287,7 @@
     },
     {
       "date": "2025-08-18",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -457,7 +457,7 @@
     },
     {
       "date": "2026-04-13",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -517,17 +517,22 @@
     },
     {
       "date": "2026-07-06",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
       "date": "2026-07-13",
-      "level": 3,
+      "level": 4,
       "count": 0
     },
     {
       "date": "2026-07-20",
       "level": 1,
+      "count": 0
+    },
+    {
+      "date": "2026-07-27",
+      "level": 2,
       "count": 0
     },
     {
@@ -767,7 +772,7 @@
     },
     {
       "date": "2026-06-23",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -892,7 +897,7 @@
     },
     {
       "date": "2025-12-17",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -1032,7 +1037,7 @@
     },
     {
       "date": "2026-07-01",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -1047,7 +1052,7 @@
     },
     {
       "date": "2026-07-22",
-      "level": 2,
+      "level": 3,
       "count": 0
     },
     {
@@ -1117,7 +1122,7 @@
     },
     {
       "date": "2025-10-30",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -1507,7 +1512,7 @@
     },
     {
       "date": "2026-05-01",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -1567,7 +1572,7 @@
     },
     {
       "date": "2026-07-24",
-      "level": 2,
+      "level": 3,
       "count": 0
     },
     {
@@ -1597,7 +1602,7 @@
     },
     {
       "date": "2025-09-06",
-      "level": 1,
+      "level": 2,
       "count": 0
     },
     {
@@ -1827,7 +1832,7 @@
     },
     {
       "date": "2026-07-25",
-      "level": 3,
+      "level": 4,
       "count": 0
     }
   ]
