@@ -272,7 +272,7 @@ graph LR
 </div>
 
 <details>
-<summary><h2>🗄️ Complete Project Archive (All 17 Projects)</h2></summary>
+<summary><h2>🗄️ Complete Project Archive (All 15 Projects)</h2></summary>
 <br>
 <p><i>A complete log of my local architectures, agentic builds, and data pipelines.</i></p>
 
@@ -288,16 +288,14 @@ graph LR
 ### 📊 Data & Spatial ML
 8. **chest_heart_detection** — *Medical imaging ML model (TensorFlow)*
 9. **heart_disease_prediction** — *Diagnostics ML pipeline (Scikit-learn)*
-10. **Nabha TeleMedicine v3** — *Telemedicine backend infrastructure*
-11. **Nabha TeleMedicine v6** — *Telemedicine API integrations*
-12. **Nabha TeleMedicine v7** — *Iterative telemedicine architecture (React, Node.js)*
-13. **Time_Series_Detection** — *Temporal data prediction pipelines (Pandas)*
-14. **SPATIAL_ANALYSIS** — *Geospatial pipelines (PostGIS)*
-15. **TEXT_TO_SQL** — *NLP to database query engine (NLP, SQL)*
+10. **Nabha TeleMedicine v7** — *Iterative telemedicine architecture (React, Node.js)*
+11. **Time_Series_Detection** — *Temporal data prediction pipelines (Pandas)*
+12. **SPATIAL_ANALYSIS** — *Geospatial pipelines (PostGIS)*
+13. **TEXT_TO_SQL** — *NLP to database query engine (NLP, SQL)*
 
 ### 🌐 Networking & Core Infrastructure
-16. **DEEP_PACKET_INSPECTION** — *Byte-level packet payload security analysis (C++, Networking)*
-17. **dns_resolver** — *Custom Domain Name System implementation (Python, Sockets)*
+14. **DEEP_PACKET_INSPECTION** — *Byte-level packet payload security analysis (C++, Networking)*
+15. **dns_resolver** — *Custom Domain Name System implementation (Python, Sockets)*
 
 </details>
 
