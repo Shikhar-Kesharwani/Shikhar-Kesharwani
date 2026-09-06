@@ -1,15 +1,10 @@
 {
   "username": "Shikhar-Kesharwani",
-  "total_contributions": 1234,
+  "total_contributions": 1235,
   "current_streak": 0,
   "longest_streak": 0,
   "best_day": 0,
   "days": [
-    {
-      "date": "2025-08-31",
-      "level": 1,
-      "count": 0
-    },
     {
       "date": "2025-09-07",
       "level": 1,
@@ -271,8 +266,8 @@
       "count": 0
     },
     {
-      "date": "2025-09-01",
-      "level": 1,
+      "date": "2026-09-06",
+      "level": 0,
       "count": 0
     },
     {
@@ -532,11 +527,6 @@
     },
     {
       "date": "2026-08-31",
-      "level": 1,
-      "count": 0
-    },
-    {
-      "date": "2025-09-02",
       "level": 1,
       "count": 0
     },
@@ -801,11 +791,6 @@
       "count": 0
     },
     {
-      "date": "2025-09-03",
-      "level": 1,
-      "count": 0
-    },
-    {
       "date": "2025-09-10",
       "level": 1,
       "count": 0
@@ -1063,11 +1048,6 @@
     {
       "date": "2026-09-02",
       "level": 1,
-      "count": 0
-    },
-    {
-      "date": "2025-09-04",
-      "level": 0,
       "count": 0
     },
     {
@@ -1331,11 +1311,6 @@
       "count": 0
     },
     {
-      "date": "2025-09-05",
-      "level": 1,
-      "count": 0
-    },
-    {
       "date": "2025-09-12",
       "level": 1,
       "count": 0
@@ -1592,11 +1567,6 @@
     },
     {
       "date": "2026-09-04",
-      "level": 2,
-      "count": 0
-    },
-    {
-      "date": "2025-09-06",
       "level": 2,
       "count": 0
     },
